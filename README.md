@@ -1,16 +1,17 @@
 # Weather App
 
-A simple weather application built with HTML, CSS, and JavaScript. Search for a city to view its current weather conditions using the Open-Meteo API.
+A responsive weather application built with HTML, CSS, and JavaScript. Search for a city to view its current weather information using the Open-Meteo API.
 
 ## Features
 
-- Search for weather by city name
-- Display current temperature
-- Show the apparent temperature (feels like)
-- Display weather conditions
-- Show humidity and wind speed
-- Handle empty searches and cities that cannot be found
-- Fetch weather data without an API key
+- Search weather by city name
+- Press Enter or click Search to fetch weather
+- Display temperature and feels-like temperature
+- Show weather conditions, including rain, snow, fog, and thunderstorms
+- Display humidity and wind speed
+- Handle empty input and invalid city names
+- Display an error message if a weather request fails
+- No API key required
 
 ## Tech Stack
 
@@ -21,20 +22,21 @@ A simple weather application built with HTML, CSS, and JavaScript. Search for a 
 - Open-Meteo Geocoding API
 - Open-Meteo Weather Forecast API
 
-## How to Run
+## Screenshot
+
+![Weather App Screenshot](weather-app-screenshot.png)
+
+## How to Run Locally
 
 1. Clone or download this repository.
-2. Open `index.html` in a web browser.
-3. Enter a city name and click Search.
+2. Open `index.html` in a browser.
+3. Enter a city name and click Search or press Enter.
 
 An internet connection is required to retrieve weather data.
 
-## Future Improvements
+## Live Demo
 
-- Responsive design for mobile devices
-- Weather icons
-- Search using the Enter key
-- Display the last updated time
+[Open the Weather App](https://RohithVelagapuram.github.io/weather-app/)
 
 ## API Attribution
 
